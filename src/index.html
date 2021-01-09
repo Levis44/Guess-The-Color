@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
+    <title>Guess the Color!</title>
+</head>
+<body>
+    
+        <h1>Acerte a Cor!</h1>
+        <p>Placar: <span style="display: inline-block;" id="points">0</span> </p>
+   
+    
+        <h2 id="corCerta"></h2>
+    
+   
+        <div class="circles">
+            <div class="bola" id="1"></div>
+            <div class="bola" id="2"></div>
+            <div class="bola" id="3"></div>
+            <div class="bola" id="4"></div>
+            <div class="bola" id="5"></div>
+        </div>
+
+        <div id="gameOver">
+            <div>Errado, tente novamente!</div>
+            <button id="restart" onclick="restart()">Restart</button>
+        </div>
+
+        <script src="/src/assets/scripts/game.js"></script>
+        <script src="/src/assets/scripts/script.js"></script>
+</body>
+</html>
